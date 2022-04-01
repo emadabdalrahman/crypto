@@ -11,9 +11,9 @@ data class Person(
     @EncryptedField var Personchar: Char = 'c',
     @EncryptedField var Personbyte: Byte = 120,
     @EncryptedField var Personboolean: Boolean = true,
-    @EncryptedField var Personshort: Short = 4510,
-    var weather2: Weather = Weather(),
-    @EncryptedField var weather: Weather = Weather(),
+//    @EncryptedField var Personshort: Short = 4510,
+//    var weather2: Weather = Weather(),
+//    @EncryptedField var weather: Weather = Weather(),
 
 
     @EncryptedField var Personarray: ArrayList<Int> = arrayListOf(12331,2651,651),
