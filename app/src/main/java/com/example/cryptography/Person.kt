@@ -16,7 +16,7 @@ data class Person(
 //    @EncryptedField var weather: Weather = Weather(),
 
 
-     @EncryptedField var Personarray: ArrayList<Int> = arrayListOf(12331,2651,651),
+//      @EncryptedField var Personarray: ArrayList<Int> = arrayListOf(12331,2651,651),
     @EncryptedField var weatherlist: ArrayList<Weather> = arrayListOf(Weather(),Weather(),Weather()),
     @EncryptedField var Personarray1: ArrayList<Int> = arrayListOf(51),
     @EncryptedField var Personarray2: ArrayList<Long> = arrayListOf(651),
